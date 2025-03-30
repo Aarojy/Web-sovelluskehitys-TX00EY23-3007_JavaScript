@@ -1,0 +1,111 @@
+* {
+  font-family: cursive;
+}
+
+body {
+  background-color: #ffaae8;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 760px;
+  background-color: #fe81dd;
+  border: 3px solid #ff13cc;
+  justify-self: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+table .header {
+  border-bottom: 3px solid #ff13cc;
+}
+
+dialog {
+  background-color: #ffaae8;
+  border: 3px solid #ff13cc;
+}
+
+h1 {
+  background-color: #fe81dd;
+  padding: 30px;
+  border-radius: 10px;
+  border: 3px solid #ff13cc;
+  display: flex;
+  justify-self: center;
+}
+
+h3 {
+  display: flex;
+  justify-self: center;
+}
+
+#header {
+  font-weight: bold;
+}
+
+article {
+  display: grid;
+}
+
+article * {
+  margin: 10px;
+}
+
+article .name {
+  grid-column: 1;
+  width: 200px;
+}
+
+article .price {
+  grid-column: 2;
+  width: 200px;
+}
+
+article .allergens {
+  grid-column: 3;
+  width: 200px;
+}
+
+th {
+  border-bottom: 1px solid #ff13cc;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid #ff13cc;
+  padding: 0.5em 1em;
+}
+
+tr .name {
+  width: 300px;
+}
+
+.highlight {
+  background-color: #fe38d3;
+  font-weight: bold;
+}
+
+#filter {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#filter button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #ff13cc;
+  background-color: #fe81dd;
+}
+
+#filter button:hover {
+  background-color: #ff13cc;
+  color: white;
+}
